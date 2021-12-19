@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bs-body-bg);;
+    height: 100vh;
+  }
+  #login .container #login-row #login-column #login-box {
+    max-width: 546px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-color: #EAEAEA;
+  }
+
+  .col-md-6{
+    max-width: 546px;
+  }
+
+  .form{
+    display: flex;
+    flex-direction: column;
+  }
+
+  #login .container #login-row #login-column #login-form {
+    justify-content: space-around;
+    padding: 20px;
+  }
+  #login .container #login-row #login-column #login-box #login-form #register-link {
+    margin-top: -85px;
+    justify-content: space-around;
+  }
+
+  #logo-column{
+    display: flex;
+    justify-content: space-around;
+  }
+
+.logo{
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.button{
+  display: block;
+  padding: 20px;
+/*  margin-right: auto;
+  margin-left: auto;*/
+}
+
+#btn-enviar{
+  display: block;
+  width: 100%;
+}
